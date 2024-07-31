@@ -1,5 +1,8 @@
 # Body Mass Index (BMI) Calculator
 
+This repository is part of coursework for the Full Stack Web Development course from [Factoria F5](https://factoriaf5.org).
+
+## Instructions
 A program is desired to calculate the Body Mass Index (BMI) of a person. To do this, we need to define the person's weight (in kilograms) and height (in meters). The Body Mass Index (BMI) is calculated using the following formula:
 
 BMI = weight / height2
