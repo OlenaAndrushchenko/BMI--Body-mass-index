@@ -33,5 +33,16 @@ public class BmiCalculatorTest {
         assertThat(calculator.getBmi(), is(equalTo(0.0)));
     }
 
-    
+    @Test
+    void testCalculateBmi() {
+        calculator.calculate();
+        assertThat(calculator.getBmi(), is(equalTo(27.68)));
+    }
+
+    @Test
+    void testGetBmiCategory() {
+        calculator.calculate();
+        assertThat(calculator.getBmiCategory(), is(BmiCategory.OVERWEIGHT));
+    }
+
 }
